@@ -14,7 +14,7 @@ const Alexa = require('ask-sdk-core');
 const STREAMS = [
   {
     token: '1',
-    url: 'http://5.9.56.145:8000/radio.mp3?1614273908',
+    url: 'https://streaming.radionomy.com/-ibizaglobalradio-?lang=en-US&appName=iTunes.m3u',
     metadata: {
       title: 'Stream One',
       subtitle: 'A subtitle for stream one',
