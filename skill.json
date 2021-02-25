@@ -3,19 +3,19 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "An audio streaming example skill.",
+          "summary": "Providing the heart of Robin Hood with all the latest hits.",
           "examplePhrases": [
-            "Alexa, open Template Three",
-            "Alexa, play Template Three",
-            "Alexa, ask Template Three to play"
+            "Alexa, open NowHits Radio Nottingham",
+            "Alexa, play NowHits Radio Nottingham",
+            "Alexa, ask NowHits Radio Nottingham to play"
           ],
           "keywords": [
             "audio streaming",
             "music",
             "live music"
           ],
-          "name": "Template 3 - Audio Streaming Example",
-          "description": "A starter template for an Alexa audio streaming skill.",
+          "name": "NowHits Radio Nottingham",
+          "description": "Providing the heart of Robin Hood with all the latest hits.",
           "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-sm.png",
           "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-lg.png"
         }

@@ -14,10 +14,10 @@ const Alexa = require('ask-sdk-core');
 const STREAMS = [
   {
     token: '1',
-    url: 'https://streaming.radionomy.com/-ibizaglobalradio-?lang=en-US&appName=iTunes.m3u',
+    url: 'http://5.9.56.145:8000/radio.mp3?1614214628',
     metadata: {
-      title: 'Stream One',
-      subtitle: 'A subtitle for stream one',
+      title: 'NowHits Radio',
+      subtitle: 'Ayup Nottingham!',
       art: {
         sources: [
           {
@@ -75,7 +75,7 @@ const HelpIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
   },
   handle(handlerInput) {
-    const speechText = 'This skill plays an audio stream when it is started. It does not have any additional functionality.';
+    const speechText = 'Providing the heart of Robin Hood with all the latest hits.';
 
     return handlerInput.responseBuilder
       .speak(speechText)
@@ -89,7 +89,7 @@ const AboutIntentHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AboutIntent';
   },
   handle(handlerInput) {
-    const speechText = 'This is an audio streaming skill that was built with a free template from dabblelab.com. To continue listening say: resume, or say: stop to stop listening.';
+    const speechText = 'NowHits Radio Nottingham is bringing all the latest charts, r&b and rap to your smart devices. AD FREE';
 
     return handlerInput.responseBuilder
       .speak(speechText)
